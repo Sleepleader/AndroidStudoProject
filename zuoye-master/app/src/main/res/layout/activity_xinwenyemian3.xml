@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".xinwenyemian3"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="学院举行青春报告会暨五四总结表彰大会"
+        android:textSize="42dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="金锦华作《在时代浪潮中奋力前行，做奋斗有为的强国青年》主题报告。他表示，面对复杂国际形势，青年学子须以五四精神为思想灯塔，厚植家国情怀，淬炼过硬本领，将个人成长坐标锚定国家战略需求。通过构建全球视野、深化跨学科实践、践行终身学习理念，全面提升核心竞争力。他指出，团队协作是新时代青年的必修课，唯有凝聚集体智慧、强化协同意识，方能实现个体与集体的共进共赢。他要求全体杭商青年将个人理想融入民族复兴伟业，以“功成不必在我，功成必定有我”的担当，为社会主义现代化建设贡献青春力量。报告中，金锦华对青年学子提出争当“四敢”先锋的殷切期望：一是“敢为”，以“挺膺担当”之姿坚守价值追求；二是“敢闯”，以“破冰突围”之志拓展成长边界；三是“敢干”，以“跬步千里”之功夯实发展根基；四是“敢创”，以“开疆拓土”之勇开辟创新蓝海。他勉励青年以破局者的锐气、铸魂者的定力、协同者的格局，在全面建设社会主义现代化国家新征程中镌刻杭商印记。"
+        android:textSize="16dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/xinwen3"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

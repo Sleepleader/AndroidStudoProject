@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_old_zhanghao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="原账号/需删除账号" />
+
+    <EditText
+        android:id="@+id/et_new_zhanghao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="新账号名"/>
+
+    <EditText
+        android:id="@+id/et_new_mima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="新密码"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="37dp" />
+
+    <Button
+        android:id="@+id/btn_modify_user"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:text="修改用户信息"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_delete_user"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="删除用户"
+        android:textSize="24sp" />
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".xinwenyemian1"
+    android:orientation="vertical"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="学院光荣举行2025年度新入职教职工培训"
+                android:textSize="42dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="学院院长古家军在结业讲话中指出，教育是国之大计、党之大计。习近平总书记在全国教育大会上着重强调，要围绕立德树人根本任务，实施教育家精神铸魂强师行动，培养造就新时代高水平教师队伍。当下高等教育改革面临着新使命与要求，学院在高质量发展的过程中需要更多新鲜力量的注入。他对新教师们提出了三点期望：一是坚持立德树人，做严谨治学、教书育人的楷模；二是练就过硬本领，做业务精湛、跨界融合的能手；三要强化担当意识，做创新发展、融入大局的表率。"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/xinwen1"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".geren_Fragment"
+    android:orientation="vertical"
+    android:background="#F1EEEE"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="@color/purple_500"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="个  人  信  息"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:background="#F1EEEE"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:text="头像"
+                    android:textSize="20dp"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="match_parent"/>
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/touxiang"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/jiantout_24"/>
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#F1EEEE"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:text="姓名"
+                    android:textSize="20dp"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:text="张三"
+                    android:textSize="18dp"
+                    android:gravity="center"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/jiantout_24"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#F1EEEE"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:text="班级"
+                    android:textSize="20dp"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:text="测试002班"
+                    android:textSize="18dp"
+                    android:gravity="center"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/jiantout_24"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#F1EEEE"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:text="学号"
+                    android:textSize="20dp"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="210dp"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="88888888"
+                    android:textSize="18dp"
+                    android:gravity="center"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/jiantout_24"/>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:background="#F1EEEE"/>
+            <LinearLayout
+                android:id="@+id/jidian"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:text="绩点"
+                    android:textSize="20dp"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="210dp"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:textSize="18dp"
+                    android:gravity="center"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/jiantout_24"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#F1EEEE"/>
+
+            <LinearLayout
+                android:id="@+id/kecheng"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:text="课程"
+                    android:textSize="20dp"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="210dp"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:textSize="18dp"
+                    android:gravity="center"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/jiantout_24"/>
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#F1EEEE"/>
+
+            <LinearLayout
+                android:id="@+id/paiming"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:text="排名"
+                    android:textSize="20dp"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="210dp"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:textSize="18dp"
+                    android:gravity="center"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/jiantout_24"/>
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="16dp"
+                android:background="#F1EEEE"/>
+            <LinearLayout
+                android:id="@+id/zhuxiao"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:text="注销"
+                    android:textSize="20dp"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="210dp"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:textSize="18dp"
+                    android:gravity="center"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/jiantout_24"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

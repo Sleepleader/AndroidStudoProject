@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shangpinluru"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/yuanjiaobeijing"
+                android:elevation="8dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:text="商品录入"
+                    android:textSize="42dp"
+                    android:gravity="center"
+                    android:textColor="@color/black"/>
+                <EditText
+                    android:id="@+id/lurushangpinming"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="24dp"
+                    android:hint="商品名"
+                    android:inputType="text"
+                    android:selectAllOnFocus="true" />
+                <EditText
+                    android:id="@+id/lurujiage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="24dp"
+                    android:hint="定价"
+                    android:inputType="text"
+                    android:selectAllOnFocus="true" />
+
+                <EditText
+                    android:id="@+id/lurushangpinxinxi"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="24dp"
+                    android:hint="详情描述"
+                    android:inputType="text"
+                    android:selectAllOnFocus="true" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="160dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:text="返回"
+                    android:textSize="24sp" />
+
+
+                <Button
+                    android:layout_width="160dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:text="录入"
+                    android:textSize="24dp"
+                    android:id="@+id/lu3"
+                    android:onClick="lurushangpin"
+                    />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="没有更多内容了"
+                android:gravity="center"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

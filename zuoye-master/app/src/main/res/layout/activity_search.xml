@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/edit_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入商品名/标题/姓名"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="搜索"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"/>
+
+    <ListView
+        android:id="@+id/list_result"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gouwu_Fragment"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:id="@+id/gouwudingbu"
+        android:orientation="horizontal"
+
+        >
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:id="@+id/gouwuxiangqing"
+            android:src="@drawable/gouwuxiangqing1"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="            "
+            android:gravity="center_vertical"
+            android:textSize="21dp"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:id="@+id/gouwucheyemiankong"
+            android:src="@drawable/jiagouwuche"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="  校园购"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:gravity="center_vertical"/>
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:background="@drawable/yuanjiaobeijing2"
+        android:orientation="horizontal"
+        android:elevation="12dp"
+        >
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:src="@drawable/gengxin"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="本周上线8种新品！\n凭校园卡消费享受8.8折优惠！"
+            android:textColor="@color/white"
+            android:gravity="center_vertical"/>
+
+
+
+    </LinearLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="5dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/danhangshangpin"
+                android:layout_width="match_parent"
+                android:layout_height="174dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="27.5dp"
+                    android:layout_height="2dp" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+
+                    android:layout_gravity="center"
+                    android:background="@drawable/shangpinkuang"
+                    android:id="@+id/shangpin1"
+                    android:src="@drawable/aj4new"
+                    />
+
+                <View
+                    android:layout_width="55dp"
+                    android:layout_height="2dp" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shangpinkuang"
+                    android:id="@+id/shangpin2"
+                    android:src="@drawable/watchnew"
+                    />
+
+
+
+
+           </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="AJ4"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="苹果手表"
+                    android:textSize="14dp" />
+
+
+            </LinearLayout>
+
+
+            <!--第二行商品-->
+            <LinearLayout
+                android:id="@+id/danhangshangpin2"
+                android:layout_width="match_parent"
+                android:layout_height="174dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="27.5dp"
+                    android:layout_height="2dp" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+
+                    android:layout_gravity="center"
+                    android:background="@drawable/shangpinkuang"
+                    android:id="@+id/shangpin3"
+                    android:src="@drawable/carnew"
+                    />
+
+                <View
+                    android:layout_width="55dp"
+                    android:layout_height="2dp" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shangpinkuang"
+                    android:id="@+id/shangpin4"
+                    android:src="@drawable/cloud"
+                    />
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="共享但车"
+                    android:textSize="14dp"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="抱枕"
+                    android:textSize="14dp"
+                    android:gravity="center"
+                    />
+
+
+            </LinearLayout>
+
+            <!--第三行商品-->
+            <LinearLayout
+                android:id="@+id/danhangshangpin3"
+                android:layout_width="match_parent"
+                android:layout_height="174dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="27.5dp"
+                    android:layout_height="2dp" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+
+                    android:layout_gravity="center"
+                    android:background="@drawable/shangpinkuang"
+                    android:id="@+id/shangpin5"
+                    android:src="@drawable/xbox"
+                    />
+
+                <View
+                    android:layout_width="55dp"
+                    android:layout_height="2dp" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shangpinkuang"
+                    android:id="@+id/shangpin6"
+                    android:src="@drawable/ps"
+                    />
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Xbox游戏机"
+                    android:textSize="14dp"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Playstation5"
+                    android:textSize="14dp"
+                    android:gravity="center"
+                    />
+
+
+            </LinearLayout>
+            <!--第4行商品-->
+            <LinearLayout
+                android:id="@+id/danhangshangpin4"
+                android:layout_width="match_parent"
+                android:layout_height="174dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="27.5dp"
+                    android:layout_height="2dp" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+
+                    android:layout_gravity="center"
+                    android:background="@drawable/shangpinkuang"
+                    android:id="@+id/shangpin7"
+                    android:src="@drawable/apple"
+                    />
+
+                <View
+                    android:layout_width="55dp"
+                    android:layout_height="2dp" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shangpinkuang"
+                    android:id="@+id/shangpin8"
+                    android:src="@drawable/banana"
+                    />
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="苹果电脑"
+                    android:textSize="14dp"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="泡面"
+                    android:textSize="14dp"
+                    android:gravity="center"
+                    />
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="已经到底了 再划也没有了"
+                android:gravity="center"
+                android:textSize="15dp"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

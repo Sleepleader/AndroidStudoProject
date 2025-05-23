@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shangpinxiangxiyemian"
+    android:orientation="vertical"
+    android:background="@drawable/shangpinxiangqing"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="AirJodran 4"
+        android:textSize="42dp"
+        android:textColor="@color/white"
+        android:gravity="center_vertical"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Retro Bred 2019款 40.5码"
+        android:textColor="@color/white"
+        android:textSize="15dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="0.6"
+            android:src="@drawable/xiaolian"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/aj4"/>
+
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="340dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="   品牌故事"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:text="Air Jordan创立于1985年，是以Nike旗下知名NBA球星迈克尔•乔丹(Michael Jordan)命名的系列。30多年过去了，Air Jordan
+系列已然成为全球超高人气的篮球鞋系列。许多热门鞋款也已经成为潮流人士的心爱之选。"
+                android:layout_gravity="center"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="   商品介绍"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:text="Air Jordan 4在1989年上市，设计师Tinker Hatfeld首次提出后卫鞋概念，并秉承轻量化的速度型篮球鞋设计思想完成设计。
+鞋面以皮质和尼龙网格相结合，降低重量的同时提升舒适度，中底延续前作使用了分离式后掌可视化Air Sole气垫；鞋带孔和
+后跟鞋提以篮网为造型灵感，将篮球运动巧妙融入到鞋款的设计之中，使鞋身整体富有流动性、节奏感和优雅气质。正是在
+Air Jordan 4推出后，Air Jordan系列被真正录入现代文化词典之中，成为一种文化现象。这款Air Jordan 4采用原色主题，包括黑色，水泥灰和火红。此外，这款重新制作的版本在鞋跟上
+印有Nike Air品牌。"
+                android:layout_gravity="center"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="   商品展示"
+                android:textSize="20dp"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="520dp"
+                android:src="@drawable/xie1"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="520dp"
+                android:src="@drawable/xie2"/>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#E6E5E5"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text=" ￥2438"
+            android:textColor="@color/black"
+            android:textSize="37dp"
+            android:gravity="center_vertical"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.5"
+            android:layout_gravity="center_vertical"
+            android:text="购买"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:id="@+id/goumai"/>
+        <View
+            android:layout_width="12dp"
+            android:layout_height="match_parent"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.5"
+            android:layout_gravity="center_vertical"
+            android:text="加购"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:id="@+id/jiagou"
+            />
+        <View
+            android:layout_width="12dp"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
